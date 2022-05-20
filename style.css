@@ -1,0 +1,81 @@
+/*DOCUMENTO CSS*/
+
+* { margin: 0;
+    padding: 0; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+box-sizing: border-box; }
+
+
+
+.logo img { width: 170px;
+    height: auto; 
+}
+
+
+.lista-menu :hover { background-color: rgb(49, 80, 218);
+color: rgb(255, 255, 255) !important; 
+font-size: 18px;
+}
+
+
+h1 { font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:150px;
+margin-bottom: 200px;}
+    
+h2 { font-size: 30px;
+    font-weight: 600;
+    color: white;}
+
+h6 { font-size: 30px;
+    font-weight: 600;
+    color: rgb(255, 252, 252);
+background-color: #c7a65e;
+padding: 15px;
+margin-left: 70px;
+margin-right: 70px;}
+    
+h5 { font-size: 17px;
+    margin-left: 40px;}
+    
+h3 { font-weight: 700;}
+    
+h4 { font-weight: 650;
+    font-size: 20px;
+    color: rgb(188, 34, 34);}
+
+.container { max-width: 1400px;
+margin: auto;}
+
+#productos .container{
+padding: 100px 12px;
+display:flex;
+justify-content: center;
+
+}
+#videos .container{ text-align: center;
+margin-top: 35px;
+background-color: #3d43bc;
+padding-bottom: 10px;
+}
+
+
+@media (min-width:720px){
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.formulario { margin-left: 70px;
+padding-top: 20px;}
+
+.cajafoo { 
+text-align: right;
+margin-right: 90px;}
+
